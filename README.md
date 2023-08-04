@@ -21,7 +21,7 @@ Passo a passo para configuração inicial da demo (também descrito no vídeo "C
 ## Passo 1: Ativar role ACCOUNTADMIN
 ![rol accountadmin](images/rol.png)
 
-## Passo 2: Carregar o arquivo 0_LATAM_TastyBytes_Configuracion.sql
+## Passo 2: Carregar o arquivo 0_LATAM_TastyBytes_ConfigInicial.sql
 Opção 1 - Carregar dados na opção "Criar planilha a partir do arquivo SQL", uma janela de seleção do sistema operacional será aberta e escolherá onde o arquivo SQL será armazenado.
 ![rol accountadmin](images/op2.png)
 Opção 2 - Carregar dados na opção "Create SQL Worksheet", você pode abrir o arquivo SQL em um navegador, copiar e colar o código na planilha recém-criada.
@@ -37,14 +37,14 @@ Selecione todo o código SQL e execute tudo de uma única vez.
 Uma vez concluídos o passo 1 e o passo 2 da configuração, o projeto propõe 6 etapas, que vão desde a criação de alertas e cotas de uso dw warehouses (cluster de processamento), transformação dos dados, utilização de dados do tipo VARIANT para trabalhar com padrões semi-estruturados de arquivos, governança de dados por meio de tags definindo políticas para mascarar dados confidenciais e privados, bem como segmentação por linha, aplicar colaboração de dados para acessar dados do mercado Snowflake para clima e geografia.
 
 - Governança de recursos
-<br>1_LATAM_TastyBytes_MonitorRecursos.sql
+<br>1_LATAM_TastyBytes_MonitorDeRecursos.sql
 - Transformação de dados
-<br>2_LATAM_TastyBytes_Transformacion.sql
+<br>2_LATAM_TastyBytes_Transformacao.sql
 - Dados Semi-Estruturados
-<br>3_LATAM_TastyBytes_DatosSemiEstructurados.sql
+<br>3_LATAM_TastyBytes_DadosSemiEstructurados.sql
 - Governança de Dados
-<br>4_LATAM_GobiernoDatos.sql
+<br>4_LATAM_GovernancaDados.sql
 - Colaboração
-<br>5_LATAM_Colaboracion.sql
+<br>5_LATAM_Colaboracao.sql
 - Geoespacial 
 <br>6_LATAM_TastyBytes_Geoespacial.sql
